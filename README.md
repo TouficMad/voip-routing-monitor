@@ -1,6 +1,6 @@
 # VoIP Routing Monitor
 
-Monitoring and **least-cost routing (LCR)** for voice carriers, built the way a DevOps/SRE team would run it. A Python exporter turns call detail records (CDRs) into the KPIs routing teams use every day: **ASR, NER, ACD and PDD**. It publishes them to **Prometheus**, fires alerts through **Alertmanager** when a carrier degrades, and shows everything in **Grafana**, including a live routing plan that drops bad carriers automatically.
+Monitoring and **least-cost routing (LCR)** for voice carriers, built the way a DevOps team would run it. A Python exporter turns call detail records (CDRs) into the KPIs routing teams use every day: **ASR, NER, ACD and PDD**. It publishes them to **Prometheus**, fires alerts through **Alertmanager** when a carrier degrades, and shows everything in **Grafana**, including a live routing plan that drops bad carriers automatically.
 
 This project combines my background running voice routing for a telecom operator with the DevOps tooling I'm learning.
 
